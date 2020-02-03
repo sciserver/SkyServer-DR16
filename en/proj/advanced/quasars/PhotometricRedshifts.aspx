@@ -23,13 +23,11 @@
 		  Analyzing Data</a> How-To tutorial.</p>
           
           <p>In December 2000, the SDSS collaboration published 
-          a paper with graphs like the ones you made. To compare your graphs to theirs, click 
-          <a target="offsite" href="http://xxx.lanl.gov/abs/astro-ph/0012449">here</a> to 
-          download their paper from the Los Alamos Astrophysical Preprint Server.
-          Click "Other Formats," then select "Download PDF." (You will need to download 
-          Adobe Acrobat Reader to view this file. Click <a target="help" 
-          href="http://www.adobe.com/products/acrobat/readstep2.html">here</a> to 
-          download the program, free of charge, from Adobe's web site.)</p>
+          a paper with graphs like the ones you made. To compare your graphs to theirs, download 
+          their paper from the arXiv scientific preprint website 
+            (<a target="offsite" href="https://arxiv.org/abs/astro-ph/0012449">Richards et al. 2000, 
+                	arXiv:astro-ph/0012449</a>).</p>
+
           <p>The researchers' graphs are on page 34 of their paper. You may want to 
           change the scales on your graphs to make yours look more like theirs.</td>
         </tr>
