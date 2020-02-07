@@ -32,7 +32,7 @@ red and infrared light. The 5730 C star has a peak wavelength in the blue
 wavelength of light. The 7730 C star has a peak wavelength in ultraviolet light.</p>
 
 <table class=exercise width=600 cellpadding=5 cellspacing=0><tr>
-<td><p><strong>Explore 3.</strong> This <a target="_blank" href="physlet/blackbody.html">interactive Java applet</a> will 
+<td><p><strong>Explore 3.</strong> This <a target="_blank" href="https://www.compadre.org/PQP/quantum-need/section4_2.cfm?NOH=1">interactive "physlet"</a> will 
 help you learn how thermal radiation curves change with temperature. Click on the link 
 to open a new window, then read the instructions. Try several different temperatures 
 and peak wavelengths. Can you find a mathematical relationship between temperature 
@@ -47,6 +47,9 @@ and peak wavelength?</p></td>
 
 <tr><td><A href="temperature.aspx" ><IMG src="../../images/previous.jpg" align=left>
 <A href="peakwavelength.aspx" ><IMG src="../../images/next.jpg" align=right></A></td></tr>
+
+    
+<tr><td><a name="credit"></a><p class="sml">Stellar temperature simulation developed and hosted by the <a href="https://www.compadre.org/Physlets/" target="_blank">Physlets</a> project</p></td></td></tr>
 
 </table>
 <P>

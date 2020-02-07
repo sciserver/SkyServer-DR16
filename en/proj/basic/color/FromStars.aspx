@@ -111,7 +111,7 @@
       <img align="left" src="../../images/previous.jpg"></a> <a href="colorandtemp.aspx">
       <img align="right" src="../../images/next.jpg"></a></td>
     </tr>
-    <tr><td><p class="sml">Stellar temperature simulation developed and hosted by the <a href="https://www.compadre.org/Physlets/" target="_blank">Physlets</a> project</p></td></td></tr>
+    <%--<tr><td><p class="sml">Stellar temperature simulation developed and hosted by the <a href="https://www.compadre.org/Physlets/" target="_blank">Physlets</a> project</p></td></td></tr>--%>
   </table>
 </div>
 </asp:Content>

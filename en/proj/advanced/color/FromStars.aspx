@@ -78,13 +78,6 @@ important about the star? Yes, you can. Click Next to find out how.</p>
 <tr><td><p></p></td></tr>
 <tr><td><p></p></td></tr>
 
-<tr><td>
-<a name="credit"></a>
-<p><font size=-2>Light curves adapted from <a href="#credit" 
-onclick="window.open('http://webphysics.davidson.edu/Applets/blackbody/','offsite');">
-Blackbody radiation physlet</a>, Davidson College.</font></p>
-
-
 </table>
 
 </div>
