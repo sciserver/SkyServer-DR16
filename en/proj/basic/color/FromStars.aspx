@@ -73,31 +73,32 @@
       <table class=exercise width=600 cellpadding=5 cellspacing=0>    
         <tr>
           <td width="100%"><p><b>Explore 3.</b> Open the 
-          <a target="_blank" href="physlet/blackbody.html">
-          stellar temperature simulation</a>.
-          You will see the spectrum of a computer-simulated star. On the left, 
-          you will see a simulation of what the star would look like. You can 
-          click on any of the temperature buttons to see a simulated spectrum, 
-          or you can enter you own temperature in the box.</p>
+
+              <a target="_blank" href="https://www.compadre.org/PQP/quantum-need/section4_2.cfm?NOH=1">
+                  stellar temperature simulation</a> (it will open in a new tab).</p>
+              
+          <p>You will see the thermal radiation curve of a computer-simulated star with a temperature of 
+              1000 Kelvin (about 720 degrees Celsius or 1300 degrees Fahrenheit). This is a  
+              spectrum that shows the amount of light that star gives off at various wavelengths. 
+              The horizontal axis shows the wavelength in microns (one micron equals 10,000 
+              &Aring;ngstroms). The vertical axis is a measure of the energy density (the amount of 
+              light emitted).</p>
+
+              <p>Use the text box below the thermal radiation curve to change the temperature of the 
+                  simulated star, then click the "set temperature" button to generate a new graph. Try 
+                  out several different temperatures.
+              </p>
+
+
+          
           <p>Do you notice a relationship 
           between the spectrum's peak wavelength and the simulated star's 
-          temperature? What temperature 
-          gives a peak wavelength in the blue region of the spectrum? What 
-          color is the star? Do the peak wavelength and color match?</p>
-          <p>Find a star with a peak wavelength in the red region of the spectrum. 
-          What color is it? Find the peak wavelength of a star that 
-          appears red. Where is the peak wavelength?</p>
-          <p>Human body temperature is about 
-          310K. Where is the peak wavelength of a human body? Why don't you 
-          glow like a star?<br>HINT: try decreasing the temperature slowly until you get to 310 K. 
-          How does the simulated color change?</p>
-          <p>Challenge Question: Can you 
-          find any temperature that would appear green? Why or why not?</p></td>
+          temperature?</p></td>
         </tr>
       </table>
       <p>On the next page, you'll learn more about how a star's temperature determines 
       its color.</p>
-      <p>&nbsp;</td>
+    
     </tr>
     <tr>
       <td></td>
@@ -110,6 +111,7 @@
       <img align="left" src="../../images/previous.jpg"></a> <a href="colorandtemp.aspx">
       <img align="right" src="../../images/next.jpg"></a></td>
     </tr>
+    <tr><td><p class="sml">Stellar temperature simulation developed and hosted by the <a href="https://www.compadre.org/Physlets/" target="_blank">Physlets</a> project</p></td></td></tr>
   </table>
 </div>
 </asp:Content>
