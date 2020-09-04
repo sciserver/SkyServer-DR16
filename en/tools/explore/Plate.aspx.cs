@@ -14,7 +14,7 @@ namespace SkyServer.Tools.Explore
 {
     public partial class Plate : System.Web.UI.Page
     {
-        protected long? plateId = null;
+        protected decimal? plateId = null;
         protected Globals globals;
         protected ObjectExplorer master;
         protected RunQuery runQuery;
@@ -26,8 +26,8 @@ namespace SkyServer.Tools.Explore
         {
             globals = (Globals)Application[Globals.PROPERTY_NAME];
             master = (ObjectExplorer)Page.Master;            
-            string s = Request.QueryString["plateId"];            
-            plateId = Utilities.ParseId(s);                      
+            string s = Request.QueryString["plateId"];
+            plateId = Convert.ToDecimal(s);
             runQuery = new RunQuery();
             executeQuery();
         }
@@ -66,7 +66,7 @@ namespace SkyServer.Tools.Explore
                 Response.Write("<tr>");
                 while (reader.Read())
                 {
-                    specObjId = reader["specObjId"] is DBNull ? null : Functions.BytesToHex((byte[])reader["specObjId"]);
+                    specObjId = reader["specObjId"] is DBNull ? null : reader["specObjId"].ToString();
                     sid = u + specObjId + "'>";
                     string v = "[" + reader.GetValue(1).ToString() + "]&nbsp;";
                     v += reader.GetValue(2).ToString() + " z=" + reader.GetValue(3).ToString();
