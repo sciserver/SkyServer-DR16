@@ -21,6 +21,7 @@ namespace SkyServer.Tools.Explore
         public double dec;
         public string apstar_id;
         public string apogee_id;
+        public string field_name;
         public double glon;
         public double glat;
         public long location_id;
@@ -128,6 +129,7 @@ namespace SkyServer.Tools.Explore
                     dec = reader["dec"] is DBNull ? -99.99 : (double)reader["dec"];
                     apstar_id = reader["apstar_id"] is DBNull ? "-" : (string)reader["apstar_id"];
                     apogee_id = reader["apogee_id"] is DBNull ? "-" : (string)reader["apogee_id"];
+                    field_name = reader["field_name"] is DBNull ? null : (string)reader["field_name"];
                     glon = reader["glon"] is DBNull ? -99.99 : (double)reader["glon"];
                     glat = reader["glat"] is DBNull ? -99.99 : (double)reader["glat"];
                     location_id = reader["location_id"] is DBNull ? -9999 : (long)reader["location_id"];
@@ -172,9 +174,9 @@ namespace SkyServer.Tools.Explore
             string specApogeeLink = globals.ApogeeSpectrumLink + "?apogee_id=" + apogee_id;
             string doWeNeedC = (commiss == 1) ? "C" : "";
 
-            apogeeSpecImage = globals.ApogeeFitsLink + apred_version + "/stars/apo25m/" + location_id + "/plots/apStar" + doWeNeedC + "-" + apred_version + "-" + HttpUtility.UrlEncode(apogee_id) + ".jpg";
+            apogeeSpecImage = field_name == null ? null : globals.ApogeeFitsLink + apred_version + "/stars/apo25m/" + field_name + "/plots/apStar" + doWeNeedC + "-" + apred_version + "-" + HttpUtility.UrlEncode(apogee_id) + ".jpg";
             spectrumLink = globals.ApogeeSpectrumLink + "/stars?location_id=" + location_id + "&commiss=" + commiss + "&apogee_id=" + apogee_id + "&action=search";
-            fitsLink = globals.ApogeeFitsLink + apred_version + "/stars/apo25m/" + location_id + "/apStar" + doWeNeedC + "-" + apred_version + "-" + HttpUtility.UrlEncode(apogee_id) + ".fits";
+            fitsLink = field_name == null ? null : globals.ApogeeFitsLink + apred_version + "/stars/apo25m/" + field_name + "/apStar" + doWeNeedC + "-" + apred_version + "-" + HttpUtility.UrlEncode(apogee_id) + ".fits";
         }
 
         protected void ReadVisitsFromDbReader()

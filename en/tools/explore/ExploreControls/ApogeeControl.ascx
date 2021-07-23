@@ -40,7 +40,9 @@
         <table>
           <tr>
             <td colspan="2">
-              <a href="<%=apogeeSpecImage %>"><img src="<%=apogeeSpecImage %>" width="780" height="195" alt="APOGEE infrared spectrum of <%=apogee_id %>" /></a>
+              <%if(field_name != null){ %>
+                <a href="<%=apogeeSpecImage %>"><img src="<%=apogeeSpecImage %>" width="780" height="195" alt="APOGEE infrared spectrum of <%=apogee_id %>" /></a>
+              <%} %>
             </td>
           </tr>
           <tr>
@@ -48,7 +50,9 @@
               <a class="content" href="<%=spectrumLink %>" target="_blank">Interactive spectrum<img src="../../images/new_window_black.png" alt=" (new window)" /></a>
             </td>
             <td class="irspeclink" align="right">
-              <a class="content" href="<%=fitsLink %>" target="_blank">Download FITS<img src="../../images/new_window_black.png" alt=" (new window)" /></a>
+              <%if(field_name != null){ %>
+                <a class="content" href="<%=fitsLink %>" target="_blank">Download FITS<img src="../../images/new_window_black.png" alt=" (new window)" /></a>
+              <%} %>
             </td>
           </tr>
         </table>
