@@ -33,7 +33,7 @@ namespace SkyServer.Links
             gutter += "4,The EDR SkyServer,../../../edr/;";
             gutter += "5,SDSS Data Release 1,http://www.sdss.org/dr1/;";
             gutter += "7,SDSS Data Release 2,http://www.sdss.org/dr2/;";
-            gutter += "6,SkyQuery,http://skyquery.net/;";
+            /*gutter += "6,SkyQuery,http://skyquery.net/;";*/
             gutter += "20,Download,/help/download/;";
 
             LinksGutter = new Gutter(imgpath, url, Response);

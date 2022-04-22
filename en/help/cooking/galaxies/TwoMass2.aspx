@@ -17,10 +17,10 @@
 <ol>
 
 <li><p>The first step is to get 2MASS infrared data, using whatever tools you are most comfortable with. 
-The only constraint is that the RA and dec must appear <em>last</em> in the data list. One way to get the 
+The only constraint is that the RA and dec must appear <em>last</em> in the data list.<!--One way to get the 
 data is to use the <b>Simple Query</b> section of the <a href="http://www.openskyquery.org" target="offsite">OpenSkyQuery</a> tool of the 
 <a href="http://www.us-vo.org" target="offsite">National Virtual Observatory</a> (links open in the same 
-new window) to get the 2MASS object ID, the j, h, and k magnitudes, and the positions.</p></li>
+new window) to get the 2MASS object ID, the j, h, and k magnitudes, and the positions.--></p></li>
 
 <li><p>Go to SkyServer's <a href="../../../tools/crossid/upload.aspx" target="tools">Imaging Cross-Identification</a> tool. 
 To get there from astronomers' home page, look under <i>Search Tools</i>. To get there from the public home page, 

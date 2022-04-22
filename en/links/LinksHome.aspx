@@ -27,9 +27,9 @@ instruments and data, and profile some of the SDSS's exciting first discoveries.
 <p>
 <a href="http://www.sdss.org/<%=globals.Release%>/">SDSS Data Release 1</a> describes the SDSS's current data coverage, and lets you download raw images and spectra.
 
-<p>
+<!--<p>
 <a href="http://skyquery.net/">SkyQuery</a> lets you quickly and seamlessly search SDSS data in conjunction with three other databases.
-
+	-->
 <p>
 <a href="../help/download/">Download</a> lets you download other tools to search and analyze SDSS data, as well as papers about SkyServer. 
 

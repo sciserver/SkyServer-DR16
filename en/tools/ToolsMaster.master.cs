@@ -80,10 +80,10 @@ namespace SkyServer.Tools
   
               gutter += "6,CrossID,/tools/crossid/crossid.aspx;";
             // hiding the link until crossmatch is working      
-              if (Boolean.Parse(ConfigurationManager.AppSettings["DoShowCrossMatch"].ToLower()))
+              /*if (Boolean.Parse(ConfigurationManager.AppSettings["DoShowCrossMatch"].ToLower()))
               {
                   gutter += "9,Skyquery CrossMatch,/tools/crossmatch/crossmatch.aspx;";
-              }
+              }*/
 
               if( globals.ReleaseNumber > 1 ) {
   	            gutter += "8,CasJobs,"+globals.CasJobs+"' TARGET='CASJOBS;";

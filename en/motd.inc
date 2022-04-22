@@ -1,4 +1,4 @@
-﻿        <div class="migrationAlert">
+﻿        <!--<div class="migrationAlert">
 
             <h2>SciServer Altair <i>v1.9.1</i></h2>
 
@@ -12,3 +12,4 @@
               </a>.</p>
 
         </div>
+        -->
