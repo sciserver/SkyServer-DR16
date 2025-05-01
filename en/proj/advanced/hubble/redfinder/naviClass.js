@@ -22,8 +22,8 @@ function Div(id, left, top) {
 
 // Methods to move the dynamic object
 Div.prototype.initialize = function () {
-
-    this.element = document.getElementById(this.id);//this.window.document.all[this.id];
+    //this.element = document.getElementById(this.id);//this.window.document.all[this.id];
+    this.layer = this.window.document.getElementById(this.id);
     this.style = this.element.style;
 }
 
